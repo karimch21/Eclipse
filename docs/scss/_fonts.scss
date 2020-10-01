@@ -1,0 +1,79 @@
+@font-face {
+    font-family: "GothamPro-Bold";
+  
+    src: 
+        url("../fonts/GothaProBol.woff2") format("woff2"),
+        url("../fonts/GothaProBol.woff") format("woff");
+    
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: "GothamPro-Medium";
+  
+    src: 
+        url("../fonts/GothaProMed.woff2") format("woff2"),
+        url("../fonts/GothaProMed.woff") format("woff") ; 
+    font-weight: normal;
+    font-style: normal;
+  }
+
+
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../fonts/icomoon.eot?26t9k8');
+    src:  url('../fonts/icomoon.eot?26t9k8#iefix') format('embedded-opentype'),
+      url('../fonts/icomoon.ttf?26t9k8') format('truetype'),
+      url('../fonts/icomoon.woff?26t9k8') format('woff'),
+      url('../fonts/icomoon.svg?26t9k8#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+  
+  [class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .icon-arrow-down-circle:before {
+    content: "\e900";
+  }
+  .icon-social-twitter:before {
+    content: "\e901";
+  }
+  .icon-social-facebook:before {
+    content: "\e902";
+  }
+  .icon-keyboard_arrow_right:before {
+    content: "\e903";
+  }
+  .icon-email:before {
+    content: "\e904";
+  }
+  .icon-cart:before {
+    content: "\e905";
+  }
+  .icon-cart1:before {
+    content: "\e906";
+  }
+  .icon-arrow-outline-left:before {
+    content: "\e908";
+  }
+  .icon-arrow-outline-right:before {
+    content: "\e909";
+  }
+  .icon-arrow-up:before {
+    content: "\e90a";
+  }
+  
